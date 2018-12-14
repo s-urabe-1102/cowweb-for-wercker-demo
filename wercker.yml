@@ -47,6 +47,7 @@ push-to-releases:
         ports: 8080
         cmd: java -jar /pipeline/source/build/libs/cowweb-1.0.jar
 
+
 deploy-to-cluster:
   box:
     id: alpine
